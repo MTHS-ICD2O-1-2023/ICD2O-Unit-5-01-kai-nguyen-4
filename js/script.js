@@ -18,3 +18,6 @@ function randomCheck() {
   }
   // Ouput the answer to the user in the class "answer"
 }
+function showMessage (value) {
+  document.getElementById("sliderInput").innerHTML = value
+}

@@ -34,8 +34,10 @@
       </div>
       <div class="page-content"></div>
       <form action="#">
-        <p style="width: 300px;">Enter a number 1-6 <br /> <br />
-          <input class="mdl-slider mdl-js-slider" type="range" min="1" max="6" value="0" tabindex="0" id="num-entered">
+        <p>Enter a number 1-6 <br /> <br />Value:</p>
+        <p id="sliderInput" class="value-align"></p>
+        <p class="slider">
+          <input class="mdl-slider mdl-js-slider" type="range" min="1" max="6" value="0" tabindex="0" id="num-entered" oninput="showMessage(this.value)" onchange="showMessage(this.value)">
         </p>
         <br />
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="randomCheck()">

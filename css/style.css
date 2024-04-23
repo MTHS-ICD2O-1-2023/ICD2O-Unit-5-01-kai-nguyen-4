@@ -34,6 +34,14 @@ img {
   font-size: 1.25rem;
 }
 
+.slider {
+  width: 300px;
+}
+
+.value-align {
+  padding-left: 140px;
+}
+
 body {
   background-color: cornflowerblue;
 }
